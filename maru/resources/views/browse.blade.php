@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Laravel @ BROWSE
                 </div>
 
                 <div class="links">
