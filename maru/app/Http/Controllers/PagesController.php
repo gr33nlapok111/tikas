@@ -10,19 +10,19 @@ class PagesController extends Controller
 		return view('welcome');
 	}
 	
-	public function brose(){
-		return view('welcome');
+	public function browse(){
+		return view('browse');
 	}
 	
 	public function about(){
-		return view('welcome');
+		return view('about');
 	}
 	
 	public function request(){
-		return view('welcome');
+		return view('request');
 	}
 	
 	public function login(){
-		return view('welcome');
+		return view('login');
 	}
 }
