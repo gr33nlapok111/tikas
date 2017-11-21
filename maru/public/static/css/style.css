@@ -4,33 +4,63 @@
 #user-skills{
 	width:100%;
 	position:relative;
-	max-width: 750px;
+	max-width: 650px;
     margin: 0px auto;
 }
 #user-skills .skill.set-1{}
+#user-skills .skill.set-1-1{text-align: right;padding-right: 15px;}
+#user-skills .skill.set-1-2{text-align: left;padding-left: 15px;}
 #user-skills .skill.set-2{height: 100%;	min-height :500px;    width: 100%;}
 #user-skills .skill.set-2:after{clear:both;display: block;width: 100%;content:" ";}
 
 #user-skills .human.set-0-0{
 	float:left;
-	width:40%;
+	width:36%;
 	min-height: inherit;
     height: 100%;
 	text-align: center;
 }
 
-#user-skills .skill.set-2-1{float: left;width: 30%;min-height: 100%;height: inherit;}
-#user-skills .skill.set-2-1-1{background-color:#000;boder:1px solid #fff;}
-#user-skills .skill.set-2-1-2{background-color:#000;boder:1px solid #fff;}
-#user-skills .skill.set-2-1-2-1{background-color:#000;boder:1px solid #fff;}
-#user-skills .skill.set-2-1-2-2{background-color:#000;boder:1px solid #fff;}
-#user-skills .skill.set-2-1-3{background-color:#000;boder:1px solid #fff;}
+#user-skills .skill.set-2-1{float: left;width: 32%;min-height: 100%;height: inherit;}
+#user-skills .skill.set-2-1-1{
+	text-align: right;
+}
+#user-skills .skill.set-2-1-2{
+	padding: 40px 0px;
+    text-align: right;
+}
+#user-skills .skill.set-2-1-2-1{
 
-#user-skills .skill.set-2-2{float: left;width: 30%;min-height: 100%;height: inherit;}
-#user-skills .skill.set-2-2-1{background-color:#000;boder:1px solid #fff;}
-#user-skills .skill.set-2-2-2{background-color:#000;boder:1px solid #fff;}
-#user-skills .skill.set-2-2-2-1{background-color:#000;boder:1px solid #fff;}
-#user-skills .skill.set-2-2-2-2{background-color:#000;boder:1px solid #fff;}
-#user-skills .skill.set-2-2-3{background-color:#000;boder:1px solid #fff;}
+}
+#user-skills .skill.set-2-1-2-2{
 
-#user-skills .skill{padding:20px;}
+}
+#user-skills .skill.set-2-1-3{
+	text-align: right;
+    padding: 0px 20%;
+}
+
+#user-skills .skill.set-2-2{float: left;width: 32%;min-height: 100%;height: inherit;}
+#user-skills .skill.set-2-2-1{
+
+}
+#user-skills .skill.set-2-2-2{
+    padding: 40px 0px;
+    text-align: left;
+}
+#user-skills .skill.set-2-2-2-1{
+
+}
+#user-skills .skill.set-2-2-2-2{
+
+}
+#user-skills .skill.set-2-2-3{
+    text-align: left;
+    padding: 0px 20%;
+}
+
+#user-skills .skill{}
+#user-skills .skill img{max-width: 60px;height: auto;width: 100%;padding:10px 0px;}
+
+.float-child div{float:left;width:50%;}
+.float-child:after{clear:both;display: block;width: 100%;content:" ";}

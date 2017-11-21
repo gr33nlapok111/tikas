@@ -50,22 +50,27 @@
                             <a href="/join" class="button is-default is-primary">Get Started</a> <a href="/series?curated" class="button is-success">Browse Now</a>
                         </div>
                         <div id="user-skills">
-                            <div class="skill set-1"></div>
-                            <div class="skill set-2">
+                            <div class="skill set-1 float-child">
+                            	<div class="skill set-1-1 wow bounceInLeft" data-wow-delay="0.10s"><img src="images/wp.png"></div>
+                            	<div class="skill set-1-2 wow bounceInRight" data-wow-delay="1.40s"><img src="images/js.png"></div>
+                            </div>
+                            <div class="set-2">
                                 <div class="skill set-2-1">
-                                    <div class="skill set-2-1-1"></div>
-                                    <div class="skill set-2-1-2">
-                                        <div class="skill set-2-1-2-1"></div><div class="skill set-2-1-2-2"></div>
+                                    <div class="skill set-2-1-1 wow bounceInLeft" data-wow-delay="0.50s"><img src="images/laravel.jpg"></div>
+                                    <div class="skill set-2-1-2 float-child">
+                                        <div class="skill set-2-1-2-1 wow bounceInLeft" data-wow-delay="1.20s"><img src="images/php.jpg"></div>
+                                        <div class="skill set-2-1-2-2 wow bounceInLeft" data-wow-delay="0.30s"><img src="images/woocommerce.png"></div>
                                     </div>
-                                    <div class="skill set-2-1-3"></div>
+                                    <div class="skill set-2-1-3 wow bounceInLeft" data-wow-delay="1.10s"><img src="images/php.png"></div>
                                 </div>
                                 <div class="human set-0-0"><img src="images/human.jpg" /></div>
                                 <div class="skill set-2-2">
-                                    <div class="skill set-2-2-1"></div>
-                                    <div class="skill set-2-2-2">
-                                        <div class="skill set-2-2-2-1"></div><div class="skill set-2-2-2-2"></div>
+                                    <div class="skill set-2-2-1 wow bounceInRight" data-wow-delay="0.40s"><img src="images/css.jpg"></div>
+                                    <div class="skill set-2-2-2 float-child">
+                                        <div class="skill set-2-2-2-1 wow bounceInRight" data-wow-delay="0.20s"><img src="images/oop.jpg"></div>
+                                        <div class="skill set-2-2-2-2 wow bounceInRight" data-wow-delay="1.30s"><img src="images/command.jpg"></div>
                                     </div>
-                                    <div class="skill set-2-2-3"></div>
+                                    <div class="skill set-2-2-3 wow bounceInRight" data-wow-delay="1s"><img src="images/3d.jpg"></div>
                                 </div>
                             </div>
                         </div>
@@ -175,5 +180,22 @@
     	<script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/script.js"></script>
+          <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
     </body>
 </html>
